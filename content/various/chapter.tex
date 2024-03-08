@@ -14,6 +14,10 @@
 	\kactlimport{KnuthDP.h}
 	\kactlimport{DivideAndConquerDP.h}
 
+	\kactlimport{*[SA] Print DP Solution.h}
+	\kactlimport{*[SA] Digit DP Template.h}
+
+
 \section{Debugging tricks}
 	\begin{itemize}
 		\item \verb@signal(SIGSEGV, [](int) { _Exit(0); });@ converts segfaults into Wrong Answers.
@@ -37,10 +41,10 @@
 			\item \lstinline{#pragma GCC target ("avx2")} can double performance of vectorized code, but causes crashes on old machines.
 			\item \lstinline{#pragma GCC optimize ("trapv")} kills the program on integer overflows (but is really slow).
 		\end{itemize}
-	\kactlimport{FastMod.h}
-	\kactlimport{FastInput.h}
-	\kactlimport{BumpAllocator.h}
-	\kactlimport{SmallPtr.h}
-	\kactlimport{BumpAllocatorSTL.h}
+	% \kactlimport{FastMod.h}
+	% \kactlimport{FastInput.h}
+	% \kactlimport{BumpAllocator.h}
+	% \kactlimport{SmallPtr.h}
+	% \kactlimport{BumpAllocatorSTL.h}
 	% \kactlimport{Unrolling.h}
-	\kactlimport{SIMD.h}
+	% \kactlimport{SIMD.h}
