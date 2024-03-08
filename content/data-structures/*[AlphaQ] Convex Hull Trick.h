@@ -1,3 +1,7 @@
+/**
+ * Author: AlphaQ
+ * Description: convex hull trick
+ */
 typedef long long ll;
 const ll IS_QUERY = -(1LL << 62);
 struct line {
